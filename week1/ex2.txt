@@ -1,0 +1,5 @@
+ 1907  cat ex1.txt 
+ 1908  echo "Hello"
+ 1909  history > ex2.txt
+ 1910  cat ex2.txt 
+ 1911  history | tail -n 5 > ex2.txt
