@@ -1,0 +1,5 @@
+To inrease the hit/miss ratio, we can use sequence of references of type: 1 1 1 1 1 1 1 1 ... [same page N times].
+It will actualy miss only once, then it will use page frame that is already in the memory. So, it will be hit all the time, no pages are removed, so hit/miss ratio will be equal to N-1, which is the greatest possible value of hit/miss ratio.
+
+To decrease the hit/miss ratio, we can use sequence of references of type: 1 2 3 4 5 6 7 ... [M sequential pages].
+It will miss all the time, since there will be no time when page is in memory. So it's the least possible value of hit/miss ratio, which is equal to 0.
