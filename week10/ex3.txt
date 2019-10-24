@@ -1,0 +1,5 @@
+chmod -x _ex3.txt
+chmod 707 _ex3.txt
+660 means rw for owner and group, no permissions for others
+775 means rwx for owner and group, rx for others
+777 means rwx for owner, group and others
