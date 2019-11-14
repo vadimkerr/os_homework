@@ -1,0 +1,8 @@
+The simpliest approach to deal with deadlocks is to ignore them. But it will not decrease user experience only if deadlocks occur rarely, and also data losses are little.
+
+In case if there is information about resources used, and when their usages can lead to deadlock, we can rely on recovery strategy once the deadlock has happened.
+
+When a machine can definitely predict process' usage of resources, we can get rid of deadlocks by avoiding actions that will lead to it. 
+In real world, it is almost impossible to completely get rid of deadlocks. It requires information about future resources, that isn't available for real systems
+
+If any of 4 Coffman conditions can be eliminated, it is better to use prevention strategy.
